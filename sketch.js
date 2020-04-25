@@ -41,7 +41,7 @@ function preload(){
 // first page starts
 function setup() {
   
-  var canvas = createCanvas(displayWidth,displayHeight);
+  var canvas = createCanvas(displayWidth*4,displayHeight*4);
 
   submit_button =  createButton("Submit");  // CREATES THE SUBMIT BUTTON
   submit_button.position(850,430);
